@@ -5,7 +5,7 @@ Using pypyodbc and QODBC we can easily pull reports and tables from Quickbooks.
 Pre-requisites
 QODBC driver (Quickbooks Enterprise 20 includes free QODBC READ-ONLY driver).
 Python 3.9 32 bit
-pypyodbc
+pypyodbc (tried pyodbc which I could not install due to issue with C++ 14 compiler)
 
 QODBC Driver notes
 
@@ -22,6 +22,7 @@ The following link will give you all the reports you can add to the reports scri
 https://doc.qodbc.com/qodbc/20/reports/sp_report_detail.html
 
 Since this is a 32 bit driver you must use Python 32 bit.
+https://stackoverflow.com/questions/21393558/32-bit-pyodbc-reading-64-bit-access-accdb
 
 You must check option for SQL server support.
 https://support.flexquarters.com/esupport/index.php?/Knowledgebase/Article/View/2738/0/qodbc-desktop-how-to-connect-to-qodbc-using-python
