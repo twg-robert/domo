@@ -6,6 +6,7 @@ cn = pyodbc.connect('DSN=QuickBooks Data;')
 """
 NOTE - This was put together to get around an issue with Domo Workbench unable to connect to Quickbooks 2019+
 My first goal is to get some financial reports quick and dirty to meet immediate needs.
+I will be initially creating 6 or so reports, namely, P&L Detail, AR/AP Summaries, Balance Sheet, Bank Balance and Cash Flow.
 Later I will work on this to make it more modular and possibly replace the Domo Workbench.
 Python once again saves the day!
 
