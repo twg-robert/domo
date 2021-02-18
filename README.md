@@ -29,3 +29,7 @@ https://support.flexquarters.com/esupport/index.php?/Knowledgebase/Article/View/
 Objectives
 Dump Quickbooks financial reports to CSV file that Domo Workbench can push to Domo instance.
 
+pypyodbc notes 
+
+This link shows how to connect to MsSQL DSN which I used to create the Quickbooks DSN connection 
+https://code.google.com/archive/p/pypyodbc/wikis/A_HelloWorld_sample_to_access_mssql_with_python.wiki
