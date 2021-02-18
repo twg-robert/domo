@@ -8,6 +8,10 @@ Python 3.9 32 bit
 pypyodbc
 
 QODBC Driver notes
+
+The following link will give you all the reports you can add to the reports script.
+https://doc.qodbc.com/qodbc/20/reports/sp_report_detail.html
+
 Since this is a 32 bit driver you must use Python 32 bit.
 You must check option for SQL server support.
 
