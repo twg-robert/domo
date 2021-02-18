@@ -2,6 +2,16 @@ import pypyodbc as pyodbc
 import csv
 
 cn = pyodbc.connect('DSN=QuickBooks Data;')
+
+"""
+NOTE - This was put together to get around an issue with Domo Workbench unable to connect to Quickbooks 2019+
+My first goal is to get some financial reports quick and dirty to meet immediate needs.
+Later I will work on this to make it more modular and possibly replace the Domo Workbench.
+Python once again saves the day!
+
+"""
+
+# PROFIT AND LOSS DETAIL - THIS YEAR TO DATE
 cursor = cn.cursor()
 cursor.execute("""
 sp_report ProfitAndLossDetail show Account, Account_Title, AccountFullName, AccountListID,
@@ -18,9 +28,9 @@ SourceName, SourceName_Title, SplitAccount, SplitAccount_Title, TaxLine, TaxLine
 Terms_Title, Text, TxnID, TxnID_Title, TxnNumber, TxnNumber_Title, TxnType, TxnType_Title parameters
 DateMacro = 'ThisYearToDate'""")
 
+# FOR TESTING
 #for row in cursor.fetchall():
     #print (row)
-
 #results = cursor.fetchall()
 
 with open(r'C:\Users\myusername\Desktop\mypldtl.csv', 'w', newline='') as myfile:
