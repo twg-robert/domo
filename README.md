@@ -34,3 +34,9 @@ pypyodbc notes
 
 This link shows how to connect to MsSQL DSN which I used to create the Quickbooks DSN connection 
 https://code.google.com/archive/p/pypyodbc/wikis/A_HelloWorld_sample_to_access_mssql_with_python.wiki
+
+
+MISC
+
+Intuit SDK
+https://developer.intuit.com/app/developer/qbdesktop/docs/get-started/download-and-install-the-sdk
