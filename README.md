@@ -1,6 +1,6 @@
-# Domo Python Quickbook ODBC Workbench - VERSION 0.1
+# Domo Python Quickbook ODBC Workbench - VERSION 1.0
 
-Using pypyodbc and QODBC we can easily pull reports and tables from Quickbooks.
+Using QODBC, pypyodbc and QODBC we can easily pull reports and tables from Quickbooks.
 
 Pre-requisites
 QODBC driver (Quickbooks Enterprise 20 includes free QODBC READ-ONLY driver).
