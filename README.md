@@ -3,15 +3,15 @@
 Using QODBC, pypyodbc and QODBC we can easily pull reports and tables from Quickbooks.
 
 Pre-requisites
-QODBC driver (Quickbooks Enterprise 20 includes free QODBC READ-ONLY driver).
+QODBC (read-only) driver (Quickbooks Enterprise 20 includes free QODBC READ-ONLY driver).
 Python 3.9 32 bit
 pypyodbc (tried pyodbc which I could not install due to issue with C++ 14 compiler)
 
 QODBC Driver notes
 
-QuickBooks Enterprise Edition 2020 includes a free copy of the QODBC Desktop Read-Only Edition in the package. 
+QuickBooks Enterprise Editions are allowed to use the QODBC Desktop Read-Only version for free.
 
-If you wish to use the advanced features of the QODBC Read/Write Edition to save data into QuickBooks, or our Server Edition for use on Web Servers and Data Servers fees may apply.
+You can buy 1 license for about $149 (time of this writing) or ask for oem licensing for significant discount (15 or more licenses).
 
 To install in QuickBooks Enterprise, here's how:
 Go to the File menu.
@@ -34,7 +34,6 @@ pypyodbc notes
 
 This link shows how to connect to MsSQL DSN which I used to create the Quickbooks DSN connection 
 https://code.google.com/archive/p/pypyodbc/wikis/A_HelloWorld_sample_to_access_mssql_with_python.wiki
-
 
 MISC
 
